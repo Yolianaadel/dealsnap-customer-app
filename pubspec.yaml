@@ -1,0 +1,71 @@
+# Metadata:
+name: dealsnap_customer_app
+description: "Dealsnap customer mobile application, for US startup."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+# Dependencies: and configurations:
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  # SDK:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Dependencies:
+  intl: any
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  get_it: ^8.0.0
+  http: ^1.2.2
+  flutter_secure_storage: ^9.2.2
+
+# Overridden Dependencies:
+dependency_overrides:
+  xml: ^6.3.0
+
+dev_dependencies:
+  # SDK:
+  flutter_test:
+    sdk: flutter
+  # Dependencies:
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_app_name: ^0.1.1
+  build_runner: ^2.4.13
+  json_serializable: ^6.8.0
+
+# Change The Application Name By Run "dart run flutter_app_name"
+flutter_app_name:
+  name: "Dealsnap"
+
+# Change The Application Logo Icon By Run "dart run flutter_launcher_icons"
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/logo/ic_logo.png"
+
+# Localizations:
+flutter_intl:
+  enabled: true
+  class_name: AppLocalizations
+  arb_dir: lib/core/localizations/l10n
+  output_dir: lib/core/localizations/generated
+
+# Flutter:
+flutter:
+  # For localizations:
+  # generate: true
+  # Material(Design):
+  uses-material-design: true
+  # Assets:
+  assets:
+    - assets/
+    - assets/logo/
+    - assets/icons/
+    - assets/images/
+    - assets/google_fonts/

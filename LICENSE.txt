@@ -1,0 +1,22 @@
+PROPRIETARY SOFTWARE LICENSE
+
+1. Grant of License:
+   You are granted a non-transferable, non-exclusive, internal-use-only license to access and use the source code ("Software") provided by Dealsnap.
+
+2. No Redistribution:
+   You may not distribute, publish, or share the Software, in whole or in part, with any third parties without prior written consent from Dealsnap.
+
+3. No Modification:
+   You may not modify, alter, decompile, reverse-engineer, or create derivative works based on the Software, unless explicitly authorized in writing by Dealsnap.
+
+4. Internal Use Only:
+   The Software is licensed for internal use only and must not be disclosed, shared, or transferred outside of the licensed organization.
+
+5. Confidentiality:
+   You agree to keep the Software confidential and take reasonable measures to prevent unauthorized access or sharing of the Software.
+
+6. Termination:
+   Violation of any terms in this agreement will result in immediate termination of the license and may result in legal action.
+
+7. Governing Law:
+   This license is governed by the laws of the USA.
