@@ -1,4 +1,5 @@
-import 'package:dealsnap_customer_app/app.constants.dart';
+import 'package:dealsnap_customer_app/core/localizations/generated/l10n.dart';
+import 'package:dealsnap_customer_app/views/extensions/build-context.extension.dart';
 import 'package:dealsnap_customer_app/views/ui/app.ui.dart';
 import 'package:flutter/material.dart';
 

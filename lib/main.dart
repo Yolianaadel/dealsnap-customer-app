@@ -4,6 +4,9 @@ import 'package:dealsnap_customer_app/views/ui/app.ui.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:get/get.dart';
+
+import 'app.bindings.dart';
 
 // Main:
 void main() {
@@ -20,7 +23,7 @@ class Application extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Returning:
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Dealsnap',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
@@ -30,7 +33,8 @@ class Application extends StatelessWidget {
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),
       onGenerateRoute: AppRouter.onGenerateRoute,
-      initialRoute: AppRouter.splashPage,
+      initialBinding: AppBindings(),
+      initialRoute: AppRouter.welcomePage,
       supportedLocales: const [Locale('en')],
       localizationsDelegates: const [
         AppLocalizations.delegate,
