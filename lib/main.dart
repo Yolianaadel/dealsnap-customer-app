@@ -34,7 +34,7 @@ class Application extends StatelessWidget {
       ),
       onGenerateRoute: AppRouter.onGenerateRoute,
       initialBinding: AppBindings(),
-      initialRoute: AppRouter.welcomePage,
+      initialRoute: AppRouter.searchPage,
       supportedLocales: const [Locale('en')],
       localizationsDelegates: const [
         AppLocalizations.delegate,

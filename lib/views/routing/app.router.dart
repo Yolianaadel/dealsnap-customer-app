@@ -1,3 +1,5 @@
+import 'package:dealsnap_customer_app/views/pages/account/account.page.dart';
+import 'package:dealsnap_customer_app/views/pages/search/search.page.dart';
 import 'package:flutter/material.dart';
 import '../pages/splash/splash.page.dart';
 
@@ -21,6 +23,7 @@ class AppRouter {
       Map<String, dynamic> screens = {
         // Screens:
         splashPage: MaterialPageRoute(builder: (_) => const SplashPage()),
+        searchPage: MaterialPageRoute(builder: (_) => const SearchPage()),
       };
       // Returning:
       return screens[settings.name];
